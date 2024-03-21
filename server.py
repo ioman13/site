@@ -6,7 +6,7 @@ from data.users import User, Jobs
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'hello'
 
-
+#hnb
 @app.route("/")
 def index():
     session = db_session.create_session()
